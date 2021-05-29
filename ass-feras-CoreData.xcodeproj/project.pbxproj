@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A24CAED4266244DC005355D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CAED3266244DC005355D0 /* AppDelegate.swift */; };
+		A24CAED6266244DC005355D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CAED5266244DC005355D0 /* SceneDelegate.swift */; };
+		A24CAEDE266244DD005355D0 /* ass_feras_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A24CAEDC266244DD005355D0 /* ass_feras_CoreData.xcdatamodeld */; };
+		A24CAEE0266244DE005355D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24CAEDF266244DE005355D0 /* Assets.xcassets */; };
+		A24CAEE3266244DE005355D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24CAEE1266244DE005355D0 /* LaunchScreen.storyboard */; };
+		A24CAEF3266245EC005355D0 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CAEF1266245EC005355D0 /* Note+CoreDataClass.swift */; };
+		A24CAEF4266245EC005355D0 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CAEF2266245EC005355D0 /* Note+CoreDataProperties.swift */; };
+		A24CAEF826624600005355D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24CAEF626624600005355D0 /* Main.storyboard */; };
+		A24CAEFC26624673005355D0 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CAEFB26624673005355D0 /* AddNoteViewController.swift */; };
+		A24CAEFF26624682005355D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CAEFE26624682005355D0 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A24CAED0266244DC005355D0 /* ass-feras-CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ass-feras-CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24CAED3266244DC005355D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A24CAED5266244DC005355D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A24CAEDD266244DD005355D0 /* ass_feras_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ass_feras_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		A24CAEDF266244DE005355D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A24CAEE2266244DE005355D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A24CAEE4266244DE005355D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24CAEF1266245EC005355D0 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A24CAEF2266245EC005355D0 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A24CAEF726624600005355D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Hadi-Note-App/Hadi-Note-App/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		A24CAEFB26624673005355D0 /* AddNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNoteViewController.swift; path = "../../Note-App-Core-Data/Note-App-Core-Data/viewController/AddNoteViewController.swift"; sourceTree = "<group>"; };
+		A24CAEFE26624682005355D0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../Hadi-Note-App/Hadi-Note-App/ViewController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A24CAECD266244DC005355D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A24CAEC7266244DC005355D0 = {
+			isa = PBXGroup;
+			children = (
+				A24CAEF1266245EC005355D0 /* Note+CoreDataClass.swift */,
+				A24CAEF2266245EC005355D0 /* Note+CoreDataProperties.swift */,
+				A24CAED2266244DC005355D0 /* ass-feras-CoreData */,
+				A24CAED1266244DC005355D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A24CAED1266244DC005355D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A24CAED0266244DC005355D0 /* ass-feras-CoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A24CAED2266244DC005355D0 /* ass-feras-CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A24CAEFB26624673005355D0 /* AddNoteViewController.swift */,
+				A24CAED3266244DC005355D0 /* AppDelegate.swift */,
+				A24CAED5266244DC005355D0 /* SceneDelegate.swift */,
+				A24CAEFE26624682005355D0 /* ViewController.swift */,
+				A24CAEF626624600005355D0 /* Main.storyboard */,
+				A24CAEDF266244DE005355D0 /* Assets.xcassets */,
+				A24CAEE1266244DE005355D0 /* LaunchScreen.storyboard */,
+				A24CAEE4266244DE005355D0 /* Info.plist */,
+				A24CAEDC266244DD005355D0 /* ass_feras_CoreData.xcdatamodeld */,
+			);
+			path = "ass-feras-CoreData";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A24CAECF266244DC005355D0 /* ass-feras-CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24CAEE7266244DE005355D0 /* Build configuration list for PBXNativeTarget "ass-feras-CoreData" */;
+			buildPhases = (
+				A24CAECC266244DC005355D0 /* Sources */,
+				A24CAECD266244DC005355D0 /* Frameworks */,
+				A24CAECE266244DC005355D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ass-feras-CoreData";
+			productName = "ass-feras-CoreData";
+			productReference = A24CAED0266244DC005355D0 /* ass-feras-CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A24CAEC8266244DC005355D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A24CAECF266244DC005355D0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = A24CAECB266244DC005355D0 /* Build configuration list for PBXProject "ass-feras-CoreData" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A24CAEC7266244DC005355D0;
+			productRefGroup = A24CAED1266244DC005355D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A24CAECF266244DC005355D0 /* ass-feras-CoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A24CAECE266244DC005355D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24CAEE3266244DE005355D0 /* LaunchScreen.storyboard in Resources */,
+				A24CAEE0266244DE005355D0 /* Assets.xcassets in Resources */,
+				A24CAEF826624600005355D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A24CAECC266244DC005355D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24CAEFC26624673005355D0 /* AddNoteViewController.swift in Sources */,
+				A24CAEDE266244DD005355D0 /* ass_feras_CoreData.xcdatamodeld in Sources */,
+				A24CAEF3266245EC005355D0 /* Note+CoreDataClass.swift in Sources */,
+				A24CAED4266244DC005355D0 /* AppDelegate.swift in Sources */,
+				A24CAED6266244DC005355D0 /* SceneDelegate.swift in Sources */,
+				A24CAEFF26624682005355D0 /* ViewController.swift in Sources */,
+				A24CAEF4266245EC005355D0 /* Note+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A24CAEE1266244DE005355D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A24CAEE2266244DE005355D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A24CAEF626624600005355D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A24CAEF726624600005355D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A24CAEE5266244DE005355D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A24CAEE6266244DE005355D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A24CAEE8266244DE005355D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ass-feras-CoreData/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "feras.ass-feras-CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A24CAEE9266244DE005355D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ass-feras-CoreData/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "feras.ass-feras-CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A24CAECB266244DC005355D0 /* Build configuration list for PBXProject "ass-feras-CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24CAEE5266244DE005355D0 /* Debug */,
+				A24CAEE6266244DE005355D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24CAEE7266244DE005355D0 /* Build configuration list for PBXNativeTarget "ass-feras-CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24CAEE8266244DE005355D0 /* Debug */,
+				A24CAEE9266244DE005355D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A24CAEDC266244DD005355D0 /* ass_feras_CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A24CAEDD266244DD005355D0 /* ass_feras_CoreData.xcdatamodel */,
+			);
+			currentVersion = A24CAEDD266244DD005355D0 /* ass_feras_CoreData.xcdatamodel */;
+			path = ass_feras_CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A24CAEC8266244DC005355D0 /* Project object */;
+}
